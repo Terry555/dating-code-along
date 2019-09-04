@@ -13,10 +13,16 @@ const Person = ({ person, modifySuperficialChoices }) => {
 
         <div className="person-description">
           <p className="person-name-age">
-
+            {name}, <span>{age}</span>
           </p>
+          <p className="person-info">{desc}</p>
         </div>
       </div>
+
+      <Actions
+        person={person}
+        modifySuperficialChoices={modifySuperficialChoices}
+        />
     </>
   )
 }
