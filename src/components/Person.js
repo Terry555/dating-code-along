@@ -22,9 +22,9 @@ const Person = ({ person, modifySuperficialChoices }) => {
       <Actions
         person={person}
         modifySuperficialChoices={modifySuperficialChoices}
-        />
+      />
     </>
-  )
-}
+  );
+};
 
 export default Person;
